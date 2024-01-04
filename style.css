@@ -1,0 +1,87 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #272222;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  font-family: 'Poppins', sans-serif;
+  background-color: #272222 !important;
+}
+
+#projects {
+  background: #f6bd03;
+}
+
+/* .mt-5 {
+  margin-top: 0px !important;
+} */
+
+section {
+  padding-top: 5rem;
+}
+
+.totop {
+  width: 4.6%;
+  border-radius: 20px;
+  padding: 1rem 1rem;
+  position: fixed;
+  left: 94%;
+  bottom: 3%;
+  display: none;
+  z-index: 89;
+}
+
+.totop.active {
+  display: block;
+}
+
+svg {
+  z-index: 88 !important;
+}
+
+.nav-link:hover {
+  color: aqua !important;
+}
+
+li {
+  list-style: none;
+}
+
+.social:hover {
+  opacity: 0.8;
+}
+
+.card-img-top:hover {
+  transform: scaleX(1.01);
+  transition: 0.3s ease-in-out;
+}
+
+footer {
+  background-color: #272222;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .totop {
+    position: fixed;
+    left: 74%;
+    bottom: 3%;
+    padding: auto;
+    width: 17%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .totop {
+    position: fixed;
+    left: 87%;
+    bottom: 3%;
+    padding: auto;
+    width: 8.5%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1115px) {
+  .totop {
+    left: 90%;
+    width: 6%;
+  }
+}
